@@ -7,7 +7,6 @@ body {
     background-color: white
   }
   h1 {
-    color: blue;
     font-size: xx-large;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
@@ -16,7 +15,6 @@ body {
     font-size: small;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: red;
   }
 
   body {
@@ -143,4 +141,42 @@ body {
   .button-36 {
     padding: 0 2.6rem;
   }
+}
+
+/* Style for the text */
+.text {
+  padding: 20px;
+  text-align: left;
+}
+
+/* Style for the image */
+.image {
+  height: 600px;
+  padding: 20px;
+  text-align: right;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section {
+  padding: 20px;
+}
+.anatomy-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.anatomy-text {
+  flex: 1;
+}
+.anatomy-image {
+  flex: 1;
+  text-align: center;
+}
+.anatomy-image img {
+  max-width: 100%;
+  height: auto;
 }
