@@ -3,6 +3,10 @@
 
 <html>
     <head>
+        <title>Eyes</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link rel="stylesheet" href="styles.css">
         <style>
             .centered{
@@ -11,6 +15,11 @@
         </style>
 
     <script src="Back_To_Top.js"> </script>
+
+    <script src="animation.js"> </script>
+    <script src="scene.js"></script>
+
+    <script src="Sean'sanimationcode.js"></script>
     </head>
 
     <body>
@@ -33,12 +42,16 @@
   </div>
   
   <div style="height: 500px;">
-    <h1> Welcome to Home Page  </h1>
+    <div id="titleContainer" class="container2">
+        <h1>Our Eyes</h1>
+        <img src="Images/Eye.jpeg" alt="Image" id="title">
+    </div>
     <br>
 
     <div>  
-    <div class ="grid-container">
-        <div class="text" style="width:700px" >
+    <div id="informationContainer"  class="container2 informationContainer">
+        <div class="grid-container">
+        <div class="text" style="width:450px; height: 350px; background-color: beige; margin-left: 40px;" >
             <h3>The eye is the sensory organ that we see out of.</p>
             <br>
             <h3>It is one of the most important parts of the body, pretty much all animals have it.</p>
@@ -49,8 +62,9 @@
         </div>
 
         <div class="image">
-            <img src="Images/EyeColorVariety.jpeg" alt="Image">
+            <img src="Images/EyeColorVariety.jpeg" alt="Image" style="height:350px; width: 600px;">
         </div>
+    </div>
     </div>
 
     </div>  
@@ -58,24 +72,35 @@
     </div>
   </div>
 
+  <div id="informationContainer2"  class="container2 informationContainer">
   <div class="text-block" style="height: 500px; background-color: #3498db;">
       <h2> Structure of the eye </h2>
       <br>
+      <p> The eye is a complex organ composed of many different parts that work together to enable us to see.</p>
+      <p> Key components include the cornea, iris, lens, retina, and optic nerve (made up of rods and cones).</p>
+      <p> So what exactly do these components do?</p>
       <a href="EyeStructure.html" class="button-36">Learn More</a>
   </div>
+</div>
 
-  <div class="text-block" style="height: 500px; background-color: bisque;">
+<div id="informationContainer3"  class="container2 informationContainer">
+<div class="text-block" style="height: 500px; background-color: bisque;">
     <h2> How Vision Works </h2>
     <br>
     <a href="HowEyeWorks.html" class="button-36">Learn More</a>
 </div>
+</div>  
 
+<div id="informationContainer4"  class="container2 informationContainer">
 <div class="text-block" style="height: 500px; background-color: khaki;">
-    <h2> Sight types </h2>
+    <h2> Common Issues with Vision </h2>
     <br>
     <a href="CommonIssues.html" class="button-36">Learn More</a>
 </div>
+</div>
 
+<div class="text-block" style="height:800px;" >
+</div>
 
     </body>
 </html>
