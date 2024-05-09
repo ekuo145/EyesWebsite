@@ -4,7 +4,7 @@ const animationData = {
         "relativeTranslate": [[-50, -50], [-50, -50], [0, 0], [0, 0]],
         "translate": [[0,0], [0, 0], [-1, -1], [-1, -1]],
         "scale": [2, 2, 0.5, 0.5],
-        "opacity": [1, 1, 1, 1]
+        "opacity": [1, 1, 0, 0]
     },
     "informationContainer": {
         "timings": [0, 13, 17, 21, 100],

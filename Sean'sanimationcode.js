@@ -60,6 +60,7 @@ function onScroll() {
 
     for (let id of animationElements) {
         const element = document.getElementById(id);
+        if (!element) continue;
         // Name shortening
         let dat = animationData[id];
         if (id == "titleContainer") {
