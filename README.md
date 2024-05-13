@@ -1,2 +1,2 @@
 Link to Website:
-https://ekuo145.github.io/EyesWebsite/
+https://ekuo145.github.io/EyesWebsite/HomePage.html
