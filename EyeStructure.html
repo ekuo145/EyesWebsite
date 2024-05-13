@@ -3,62 +3,83 @@
 <html>
     <head>
       <title>Eyes</title>
+      <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="animation.js"> </script>
+        <script src="scene.js"></script>
+
+        <script src="Sean'sanimationcode.js"></script>
+
         <link rel="stylesheet" href="styles.css">
         <script src="Back_To_Top.js"> </script>
     </head>
     <body>
         <header>
             <nav>
-              <a href="HomePage.html">Home</a>
-              <a href="CommonIssues.html">Common Issues</a>
-              <a href="HowEyeWorks.html">Eye Explanation</a>
-              <a href="EyeStructure.html">Eye Structure</a>
-              <a href="Sources.html">Sources</a>
-              <a href="Contact Me.html">Contact Me</a>
+                <a href="HomePage.html">Home</a>
+                <a href="EyeStructure.html">Eye Structure</a>
+                <a href="HowEyeWorks.html">Eye Explanation</a>
+                <a href="CommonIssues.html">Common Issues</a>
+                <a href="Sources.html">Sources</a>
+                <a href="Contact Me.html">Contact Me</a>
             </nav>
           </header>
           <div id="back-to-top" onclick="backToTop()">
             &uarr;
           </div>
        
-        <section id="anatomy">
-          <div class="anatomy-content">
-              <div class="anatomy-text">
-                  <h2>Overview</h2>
+
+          <div id="content">
+          <div id="titleContainer" class="container2">
+              <div class="centered">
+                  <h1 id="title">Overview</h1>
                   <p>The eye is a complex organ composed of many different parts that work together to enable us to see.</p>
-                  <p>Key components include the cornea, iris, lens, retina, and optic nerve (made up of rods and cones).</p>
-                  <p>Other Explanations to Be Added Later</p>
+                  <br>
+                  <p>Key components include the cornea, iris, lens, retina (made up of rods and cones), and optic nerve.</p>
               </div>
+            </div>
+
+              <div id="scrollTooltip" class="container2">
+                <p>Scroll Down to Continue!</p>
+                </div>  
+
+              <div id="informationContainer" class="container2">
               <div class="anatomy-image">
                   <img src="Images/Eye_Anatomy.jpg" alt="Anatomy of the Eye">
               </div>
-          </div>
-      </section>
-      <section id="anatomy">
-        <div class="anatomy-content">
-            <div class="anatomy-text">
+            </div>
+        <div id="informationContainer2" class="container2 informationContainer">
+            <div class="border">
                 <h2>Front of the Eye</h2>
-                <p>To Be Added </p>
+                <p>When you look at an eye, you will probably first see the sclera, the white part of the eye. This part serves to protect the eye and is an attachment point for muscles (Khan Academy). </p>
+                <p>Looking more towards the center of the eye, without realizing it, you will be looking through the <b>cornea</b>, a transparent dome-shaped layer in front of the eye, which is responsible for keeping dirt away and helping to focus light onto the retina (Khan Academy).</p>
+                <p>There you will see the <b>iris</b>, the colored part of your eye which controls size of the <b>pupil</b>, which is like the window into the more inner part of the eye (Campbell Biology).</p>
+                <p>This prevents the eye from taking too much light in or too little, adjusting the size of the pupil accordingly(Crash Course),</p>
             </div>
         </div>
-    </section>
-    <section id="anatomy">
-      <div class="anatomy-content">
-          <div class="anatomy-text">
-              <h2>Lens and Cilliary Body</h2>
-              <p>To Be Added </p>
+      <div id="informationContainer3" class="container2 informationContainer">
+          <div class="border">
+              <h2>Lens and Retina</h2>
+              <p>Light travels through the pupil and hits the lens, which changes shape to help focus light onto the retina (Campbell Biology)</p>
+              <p>The retina is filled with photoreceptors, specifically, rods and cones, in the outer layer, but it also contains neurons, specifically ganglion and bipolar neurons (Crash Course).</p>
+              <p>Bipolar neurons communicate data from the photoreceptors to the ganglion nueron, which generates action potentials</p>
           </div>
-      </div>
-  </section>
-  <section id="anatomy">
-    <div class="anatomy-content">
-        <div class="anatomy-text">
-            <h2>The Optic Nerve</h2>
-            <p>Cones and Rods</p>
-            <p>To Be Added </p>
+          </div>
+          <div id="informationContainer4" class="container2 informationContainer">
+          <div class="anatomy-image">
+            <img src="Images/LightEnteringEye.jpeg" alt="Light entering the Eye">
         </div>
     </div>
-</section>
+    <div id="informationContainer5" class="container2 informationContainer">
+        <div class="border">
+            <h2>Protective Measures</h2>
+            <p>Outside of the eye, the body has many protective features such as eyebrows which keep sweat off away from the eyes, eyelashes which trigger blinking out of reflex to keep things like sand out of your eyes, and eyelids which protect the eyes from the sun and other particles (Crash Course).</p>
+            <p>Tears also function to wash away the particles in the eyes and keep it moisturized, so the eye doesn't get dry and irritated (National Eye Institute)</p>
+        </div>
+    </div>
+
+</div>
 
     </body>
 </html>

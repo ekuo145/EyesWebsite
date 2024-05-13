@@ -4,6 +4,13 @@
     <head>
       <title>Eyes</title>
         <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="animation.js"> </script>
+        <script src="scene.js"></script>
+
+        <script src="Sean'sanimationcode.js"></script>
 
         <script src="Back_To_Top.js"> </script>
     </head>
@@ -11,9 +18,9 @@
         <header>
             <nav>
               <a href="HomePage.html">Home</a>
-              <a href="CommonIssues.html">Common Issues</a>
-              <a href="HowEyeWorks.html">Eye Explanation</a>
               <a href="EyeStructure.html">Eye Structure</a>
+              <a href="HowEyeWorks.html">Eye Explanation</a>
+              <a href="CommonIssues.html">Common Issues</a>
               <a href="Sources.html">Sources</a>
               <a href="Contact Me.html">Contact Me</a>
             </nav>
@@ -21,51 +28,91 @@
           <div id="back-to-top" onclick="backToTop()">
             &uarr;
           </div>
-
-        <section id="anatomy" >
-          <div class="anatomy-content">
+     
+          <div id="content">
+            <div id="titleContainer" class="container2">
               <div class="anatomy-text">
-                  <h2>Common Issues</h2>
+                  <div class="centered">
+                  <h1 id="title">Overview</h1>
                   <p>Not everyone's eyes are able to see as well as the normal person.</p>
                   <p>Common issues with the eyes are myopia (nearsightedness), hyperopia (farsightedness) and colorblindness.</p>
-                  <br>
-                  <br>
-                  <h2>Myopia</h2>
+                  </div>
+                </div>
+            </div>
+
+            <div id="scrollTooltip" class="container2">
+                <p>Scroll Down to Continue!</p>
+                </div>  
+
+                  <div id="informationContainer" class="container2 informationContainer">
+                    <div class="anatomy-image">
+                        <img src="Images/ShortandLongSightedness.jpeg" alt="Difference Between Short and Long Sightedness">
+                    </div>
+                    <div>
+                        <p>Figure 1: Differences between normal vision, shortsightedness (myopia), and longsightedness (hyperopia).</p>
+                    </div>
+                
+                </div>
+            
+                <div id="informationContainer2" class="container2 informationContainer">
+                    <div class="border">
+                    <h2>What is Myopia?</h2>
                 <p>Myopia is the medical term for nearsightedness.</p>
                 <p>It is usually developed during childhood and adolescence (MayoClinic).</p>
-                <p>Compared to noraml vision, which uses the lens and cornea to focus light on the retina, the eye of someone with myopia is much longer and oval shaped, resulting in light being focused in front of the retina instead (MayoClinic).</p>
-                <div class="term">Hover over me
-                    <span class="termDefinition">Tooltip text</span>
-                  </div>
+                <p> Compared to normal vision, which uses the <span class="term">lens <span class="termDefinition">Tooltip text</span></span> and <span class="term">cornea <span class="termDefinition">Tooltip text</span></span> to focus light on the <span class="term">retina <span class="termDefinition">Tooltip text</span></span>, the eye of someone with myopia is much longer and oval shaped (see figure 1 above), resulting in light being focused in front of the retina instead (MayoClinic).</p>
                 <p>Some common risk factors include: genetics, doing a lot of up close activities like reading, screen time, and not going outside enough (MayoClinic)</p>
-                <br>
-                <br>
-                <h2>Hyperopia and Presbyopia</h2>
-                <p>Hyperopia is the medical term for farsightedness.</p>
-                <p>Presbyopia is the medical term for age-related farsightedness</p>
-                <p>People with farsightedness can see things clearly further away, but close up activities like reading get blurry</p>
-                <p>Hyperopia happens because the eye is too short or too flat, causing light to be underfocused and be focused past the retina, making it blurry (ClevelandClinic)</p>
-                <p>The main cause for this is genetic, and it develops when one is very little</p>
-                <p>Presbyopia is developed after 40 and continues to get worse until 65 (MayoClinic)</p>
-                <p>The lens gets less flexible as one gets older, so it struggles with adjusting to focus light correctly, sending the light past the retina (MayoClinic)</p>
-              </div>
-              <div class="anatomy-image">
-                  <img src="Images/ShortandLongSightedness.jpeg" alt="Difference Between Short and Long Sightedness">
-              </div>
-          </div>
-      </section>
-  <section id="anatomy">
-    <div class="anatomy-content">
-        <div class="anatomy-text">
+                </div>
+            </div>
+                <div id="informationContainer3" class="container2 informationContainer">
+                    <div class="border">
+                    <h2>Hyperopia and Presbyopia</h2>
+                    <p>Hyperopia is the medical term for farsightedness.</p>
+                    <p>Presbyopia is the medical term for age-related farsightedness</p>
+                    <p>People with farsightedness can see things clearly further away, but close up activities like reading get blurry</p>
+                    <p>Hyperopia happens because the eye is too short or too flat (see figure 1 above), causing light to be underfocused and be focused past the retina, making it blurry (ClevelandClinic)</p>
+                    <p>The main cause for this is genetic, and it develops when one is very little</p>
+                    <p>Presbyopia is developed after 40 and continues to get worse until 65 (MayoClinic)</p>
+                    <p>The lens gets less flexible as one gets older, so it struggles with adjusting to focus light correctly, sending the light past the retina (MayoClinic)</p>
+                </div>
+                </div>
+    <div id="informationContainer4" class="container2 informationContainer">
+        <div class="border">
             <h2>Colorblindness</h2>
-            <p>Colorblindess usually runs in families and is passed down genetically (National Eye Institute).</p>
-            <p>The different types of colors can vary, with the most common being red-green and the less common complete colorblindness, when people don't see any color. </p>
+            <p>Colorblindness is a condition that makes people have difficulties distinguishing between certain colors. It is often caused by a genetic defect that affects the cones.</p>
+            <p>Colorblindness usually runs in families and is passed down genetically (National Eye Institute).</p>
+            <p>The different types of colors can vary, with the most common being red-green and the less common complete colorblindness, when people don't see any color (see figure 2 below). </p>
             <p>People at higher risk for color blindness are: Men, people with family history, people with certain eye diseases, people with diabetes/alzheimers/multiple scelosis, or are white (National Eye Institute)</p>
         </div>
-        <div class="anatomy-image">
-            <img src="Images/colorblindness_diagram.jpeg">
-        </div>
     </div>
-</section>
+
+    <div id="informationContainer5" class="container2 informationContainer">
+    <div class="anatomy-image">
+        <img src="Images/colorblindness_diagram.jpeg">
+    </div>
+    <div>
+        <p>Figure 2: Visualization of the differences between normal vision and types of colorblindness.</p>
+    </div>
+</div>
+
+<div id="informationContainer6" class="container2 informationContainer">
+    <div class="border">
+    <h2>What is Glaucoma</h2>
+    <p> Glaucoma is a condition that causes blindness as a result of damage to the optic nerve (National Eye Institute).</p>
+    <p>It starts off with losing peripheral vision, and when not treated, can lead to blindness</p>
+    <p>Glaucoma can be caused a blockage of ducts that drain the aqueous humor (see figure 3 below), the build up of which will increase the pressure in the eye (Campbell Biology).</p>
+    <p>People at higher risk for glaucoma are: African American people older than 40, people older than 60, especially those who are Hispanic/Latino, and people with family history (National Eye Institute)</p>
+</div>
+</div>
+
+<div id="informationContainer7" class="container2 informationContainer">
+    <div class="anatomy-image">
+        <img src="Images/glaucoma.jpeg">
+    </div>
+    <div>
+        <p>Figure 3: Eyes of someone with glaucoma</p>
+    </div>
+</div>
+
+    </div>
     </body>
 </html>
