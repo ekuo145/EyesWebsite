@@ -3,6 +3,14 @@
 <html>
     <head>
         <title>Eyes</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="animation.js"> </script>
+        <script src="scene.js"></script>
+
+        <script src="Sean'sanimationcode.js"></script>
+
         <link rel="stylesheet" href="styles.css">
 
         <script src="Back_To_Top.js"> </script>
@@ -23,40 +31,80 @@
             &uarr;
           </div>
 
-        <section id="anatomy">
-            <div class="anatomy-content">
-                <div class="anatomy-text">
-                    <h1>Overview</h1>
-                    <p>When we see, what we actually see are electromagnetic rays at the wavelength of visible light.</p>
-                    <p>We see different color light rays, where when something appears a certain color, it means the object has abosrbed everything except that color.</p>
-                    <p>The eye starts by taking in light using its photoreceptors, and turning it into nerve signals that the brain can understand (National Eye Institute)</p>
-                    <p>The photoreceptors create action potentials that go to the visual cortex. </p>
-                    <p>See the eye anatomy page for more details on this topic</p>
+          <div id="content">
+            <div id="titleContainer" class="container2">
+                <div class="centered">
+                    <h1 id="title">How the Eyes Work</h1>
+                    <p>Photoreceptors in the retina work with neurons to create action potentials that go to our brain's visual cortex.</p>
+                    <p>But what is the full pathway from light being detected to when it reaches our brain?</p>
                 </div>
             </div>
-        </section>
-        <section id="anatomy">
-                <div class="anatomy-text">
-                    <h2>Wavelengths of Light</h2>
-                    <p>Light is a form of electromagnetic waves, falling in the middle of the spectrum. </p>
-                    <p>Visible light falls from 400nm to 700nm, with the lower numbers representing bluer colors and the bigger numbers representing more red colors (Crash Course).</p>
+
+            <div id="scrollTooltip" class="container2">
+                <p>Scroll Down to Continue!</p>
+                </div> 
+
+
+            <div id="informationContainer" class="container2 informationContainer">
+                <div class="border">
+                    <h2>What is Light?</h2>
+                    <p>When we see, what we actually see are electromagnetic rays at the wavelength of visible light (see figure 1 below for visualization).</p>
+                    <p>Visible light falls from 400nm to 700nm, with the lower numbers representing bluer colors and the bigger numbers representing more red colors (Crash Course, 2015).</p>
+                    <p>Fun fact: Even though we can see millions of shades of color, some colors like magenta don't actually exist, and our mind makes it up when our cones pick up pure red and pure blue</p>
                 </div>
+            </div>
+
+            <div id="informationContainer2" class="container2 informationContainer">
                 <div class="anatomy-image">
                     <img src="Images/Electromagnetic_Spectrum.jpeg" alt="Light Spectrum">
-                </div>
-                <p>Image 1: Representative spectrum of electromagnetic waves and where visible light falls</p>
+                </div>   
+                <p>Figure 1: Representative spectrum of electromagnetic waves and where visible light falls</p>
             </div>
-        </section>
-        <section id="anatomy">
-            <div class="anatomy-content">
-                <div class="anatomy-text">
-                    <h2>How Do These Waves of Light Turn into What We See?</h2>
-                    <p>A sensory pathway begins with sensory reception, the detection of a stimulus by sensory cells. It is then converted into a change in membrane potential (called sensory transduction). The action potentials (sensory information) are transmitted to the Central Nervous System by transmission (Campbell Biology)</p>
-                    <p>Neurons that act directly as sensory receptors transmit signals through an axon, other sensory receptors regulate the neuron, where it releases neurotransmitters to receptor proteins on the neuron in response to stimulus. (Campbell Biology)</p>
-                    <p>Stronger stimulus will trigger more action potentials to be released by receptors, and may also increase the number of receptors that are activated. This increase in action potentials being sent is decoded to be stronger stimulus by the nervous system. (Campbell Biology)</p>
-                    <p>When action potentials come into the brain, circuits of neurons process the input which creates the perception of the stimuli, such as colors, smells, sounds, and tastes. Fun Fact: Colors, smells, sounds, and taste do not exist outside of the brain, it is all in response to action potentials from the sensory receptors (Campbell Biology).</p>
+
+            <div id="informationContainer3" class="container2 informationContainer">
+                <div class="border">
+                    <h2>How Does it Start?</h2>
+                    <p>First, the photoreceptors detect light in a process called sensory reception (Campbell Biology, 2020). Following this, they generate receptor potentials in a process called sensory transduction (Campbell Biology, 2020).</p>
+                    <p>The receptor potentials are like mini signals saying, there is something here, and if there is a big enough receptor potential, an action potential is released. Stronger stimulus leads to a bigger receptor potential which leads to more action potentials being produced(see figure 2 for a visualization) (Campbell Biology, 2020). The action potentials then follow the axons of the ganglion cells to the brain. </p>
+                    <p>But how does the action potential stay around that long?</p>
+                    <p>Enzyme-catalyzed reactions boost the energy of the stimulus so that it can be detected and processed by the nervous system better in a process known as amplification (Campbell Biology, 2020). However, photoreceptors are numbed in a process called sensory adaptation in response to a constant stimulus to ensure the brain isn't overloaded (Campbell Biology, 2020). </p>
                 </div>
             </div>
-        </section>
+
+            <div id="informationContainer4" class="container2 informationContainer">
+                <div class="anatomy-image">
+                    <img src="Images/Screenshot 2024-05-13 at 12.07.49 AM.png">
+                </div>
+                <p>Figure 2: Diagram showing how different magnitudes of stimulation affect the amount of action potentials produced (image taken from Campbell Biology textbook). </p>
+            </div>
+
+            <div id="informationContainer5" class="container2 informationContainer">
+                <div class="border">
+                    <h2>How Does it Reach the Visual Cortex?</h2>
+                    <p>The optic nerves of both eyes meet at the optic chiasm, the space right before the cerebral cortex, and swap sides so the left side's stimulation goes to the right side of the brain (see figure 3 for a visualization) (Campbell Biology, 2020).</p>
+                    <p>The action potentials are carried to the visual cortex by synapsing with interneurons in the brain, jumping between the neurons. (Campbell Biology, 2020). </p>
+                </div>
+            </div>
+            
+            <div id="informationContainer6" class="container2 informationContainer">
+                <div class="anatomy-image">
+                    <img src="Images/Screenshot 2024-05-13 at 12.01.47 AM.png">
+                </div>
+                <p>Figure 3: Diagram showing how data from the right visual side combines to reach the left side of the brain, and the same concept for that of the left stimulation (image taken from Campbell Biology textbook)</p>
+            </div>
+
+            <div id="informationContainer7" class="container2 informationContainer">
+                <h2>What Happens in the Visual Cortex?</h2>
+                <p>The visual cortex is located at the back of the brain, and it processes information from the retinas and assembles images in our heads.</p>
+                <p>When action potentials come into the brain, circuits of neurons process the input to create a perception of the stimuli, forming as colors, smells, sounds, and tastes. (Campbell Biology, 2020).</p>
+                <p>Fun Fact: Colors, smells, sounds, and taste don't exist outside of the brain, it is all created in response to action potentials from the sensory receptors.</p>
+            </div>
+
+            <div id="informationContainer8" class="container2 informationContainer">
+                <div class="border">
+                    <h1>You've Completed This Part, Continue Exploring About the Eyes on Other Pages!</h1>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
